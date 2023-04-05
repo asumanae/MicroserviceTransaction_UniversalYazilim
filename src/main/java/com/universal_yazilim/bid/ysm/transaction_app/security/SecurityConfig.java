@@ -32,6 +32,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
         super.configure(httpSecurity);
+        System.out.println();
         httpSecurity.csrf().disable();
     }
 }

@@ -9,6 +9,7 @@ public class MicroserviceTransactionApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MicroserviceTransactionApplication.class, args);
+		System.out.println();
 	}
 
 }
